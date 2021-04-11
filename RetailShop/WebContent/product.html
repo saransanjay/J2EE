@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>product</title>
+</head>
+<body background="http://silafest.com/wp-content/uploads/2018/01/Gray-plain-website-background.jpg">
+<form action ="product" method ="post">
+	<div align ="center">
+		<br>
+		<br>	
+		<h1>Add the Product</h1>
+		<table border="1" >
+			<tr>
+				<th>ProductID</th>
+				<td><input type = "number" name ="proid"/></td>
+			</tr>
+			<tr>
+				<th>ProductName</th>
+				<td><input type = "text" name ="proname"/></td>
+			</tr>
+			<tr>
+				<th>ProductPrice</th>
+				<td><input type ="number" name ="proprice"/></td>
+			</tr>
+			<tr>
+				<th>ProCount</th>
+				<td><input type ="number" name ="procount"></td>
+			</tr>
+		</table>
+	</div><br>
+	<div align ="center">
+		<input type ="submit" value = "ADD"/>
+	</div><br>
+</form>
+<form action = "remover" method="post">
+	<div align ="center">
+		<h1>Remove the Product</h1>
+		<label>ProductID</label>
+		<input type ="text" name ="removeproid">
+		<br>
+		<br>
+		<input type = "submit" value ="REMOVE">
+	</div>
+</form>
+<form action = "billing" method="post">
+	<div align ="center">
+		<h1>Click to billing</h1>
+		<input type ="submit" value="Billing"/>
+	</div>
+</form>
+</body>
+</html>
